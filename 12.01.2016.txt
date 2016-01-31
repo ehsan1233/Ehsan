@@ -1,0 +1,29 @@
+There are solutions to increase the number of labeled data: 
+
+1. labeling based of emojies ( which is just 2.5% of all tweets and it is not enough)
+2. using opinion lexicons of Hu and Liu's lexicon: http://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html (below paragraph)
+3. labeling tweets on sentiment prediction wensite APIs. such as sentiment140 - HANA ... ( ANAS was not agree about it)
+*4. labeling tweets on sentiment prediction wensite APIs. such as sentiment140 - HANA ... and using the results 
+for creating sentiment words. by extracting Adj and Nouns of them, then labeling tweets based on this sentiment words
+(because sentiment words are domain dependent too)
+*5.labeled tweets of 1. can be used as a sentiment words too. by extracting Adj and Nouns of them, then extending words with 
+dictionary based approach (highlighted Green on D:\thesis\litreture\DM\Sentiment Analysis and Subjectivity.pdf )
+then labeling tweets based on this sentiment words. (may be the most accurate one) 
+
+
+
+after looking into literature, D:\thesis\litreture\DM\Sentiment Analysis and Subjectivity.pdf 
+
+"
+Finally, we should note that populating an opinion lexicon (domain dependent or not) is different from
+determining whether a word or phrase is actually expressing an opinion and what its orientation is in a
+particular sentence. Just because a word or phrase is listed in an opinion lexicon does not mean that it
+actually is expressing an opinion in a sentence. For example, in the sentence, “I am looking for a good
+health insurance for my family,” “good” here does not express either a positive or negative opinion on
+any particular insurance. And the same is true for polarity/opinion orientation. We should also realize that
+opinion words and phrases are not the only expressions that bear opinions. There are many others as we
+will see in Section 3.2 when we discuss rules of opinions.
+"
+
+It means that using sentiment words does not mean exactly give us the correct labeled positive/negative tweets. 
+

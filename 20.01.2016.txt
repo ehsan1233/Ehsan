@@ -1,0 +1,25 @@
+Started to read about the other possible ways to gain labeled data instead of emoticon automatically labaleing 
+
+Ask this question in Quora : https://goo.gl/kFMmPJ
+
+"
+What is the most accurate way for having a labeled tweets
+for training sentiment analysis classifier on specific domain instead of manually labeling?
+"
+
+other introduced references are : 
+https://goo.gl/vXBWYZ
+https://goo.gl/KqYOTV
+https://goo.gl/u9UzUW
+
+TODO: need to read about Google predict
+TODO: need to read about semi supervised classification
+
+Started to classify emoticon automatically labaled tweets that are collected from the server
+The labeled tweets are in D:\thesis\Twitter API\ServerBackup\analysing\data\sampleTweets.csv 
+Which is 8400 Positive and 1100 Negative tweets.
+the files are in the D:\thesis\Twitter API\ServerBackup\analysing
+Pickle for NB has been created
+
+TODO: SVM, MaxEntropy
+

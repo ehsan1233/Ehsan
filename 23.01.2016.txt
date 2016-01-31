@@ -1,0 +1,9 @@
+TODO: read Learning from Labeled Features using Generalized Expectation Criteria article.pdf
+
+started to improve preprossesing + adding bigrams to classifier
+steps: corrected negotion words
+extracted keywords (name of universities) from feature vector
+improved punctiation extraction
+
+
+

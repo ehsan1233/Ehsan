@@ -1,0 +1,44 @@
+TODO: 
+
+reade the feature selection part of this document on literature/DM/Sentiment analysis algorithms
+ and applications-survey.pdf
+
+changed positive_Smilies.txt and negative_Smilies.txt file texts 
+then it increased positive and negative tweets 
+
+number of tweets : 117855
+
+before: 
+number of Positive tweets: 715
+
+number of Negative tweets: 187
+
+now: 
+number of Positive tweets: 1145
+
+number of Negative tweets: 233 
+
+then queried based on positive and negative words dictionary 
+
+number of Positive tweets: 15199
+
+number of Negative tweets: 18868
+
+
+then started to detect duplicated tweets : it happens because some tweets are just copy and past. 
+
+the file is in D:\thesis\Twitter API\topUniversity\data\detect_duplicate.py 
+
+the result is :
+
+number of unique tweets : 72039
+
+number of Positive tweets: 1127
+
+number of Negative tweets: 232
+
+then queried based on positive and negative words dictionary 
+
+number of Positive tweets: 11669
+
+number of Negative tweets: 10592

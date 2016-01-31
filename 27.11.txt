@@ -1,0 +1,12 @@
+started collecting tweets to mongoDB the difference is that, UCLA --> UCLA university, to reduce the tweets related to ucla football team 
+
+started from 27.11.2015 at 4:00 am to 
+
+
+
+besides, started to collect text from top200 db in mongodb and saved on D:\thesis\Twitter API\mongo\data\top200data.txt
+
+labeled based on emoticons like the mysql process 
+
+
+ 

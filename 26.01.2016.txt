@@ -1,0 +1,5 @@
+started to look into labeled tweets from ANAS's database. 
+
+spesificly to the tweets which are labeled based on topic
+
+the file saved in thesis/Twitter API/ServerBackup/analysing/data/topicBasedLabel.csv 

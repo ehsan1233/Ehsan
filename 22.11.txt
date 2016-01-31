@@ -1,0 +1,36 @@
+Today I started to extract just the original tweets of a table taula4bitdefault which has been collected on mysql
+the reason that I ddin't use Mongodb collection was that, for extracting original tweets ( not retweets ) to csv or txt, I 
+still have a problem with non-ascii characters and it has Error. 
+But with help of Phpmyadmin, 
+
+SELECT tweet FROM `taula4bitdefault` WHERE tweet NOT LIKE "RT%"
+
+I could now collect just the original tweets in the txt format which is located in THesis/twitter API/tweepy
+ 
+First I extraxted csv file from phpmyadmin, the opened it with note pad and saved it as txt. the reseason is because 
+each line is now presented in new line. (TODO) try to extract txt dirextly with ability of adding each one in new line
+
+from here (started in 25.11.txt)
+
+next: filtering the text : removing URL, and ....
+
+Started to extract features from text. here are steps
+
+
+1. Lower Case - Convert the tweets to lower case.
+2. URLs - I don't intend to follow the short urls and determine the content of the site, 
+so we can eliminate all of these URLs via regular expression matching or replace with generic word URL.
+3. @username - we can eliminate "@username" via regex matching or replace it with generic word AT_USER.
+4. #hashtag - hash tags can give us some useful information, so it is useful to replace them with the exact same word without the hash.
+ E.g. #nike replaced with 'nike'.
+5. Punctuations and additional white spaces - remove punctuation at the start and ending of the tweets. 
+ E.g: ' the day is beautiful! ' replaced with 'the day is beautiful'. It is also helpful to replace multiple whitespaces with a single whitespace
+
+the code is on twitter-text-features.py and the result which is based on data that has queried from phpmyadmin is stored in data/feature-Output.txt
+
+update of 25.11.txt : 
+
+data/feature_list/negative_list/feature-Output.txt
+and 
+data/feature_list/positive_list/feature-Output.txt
+

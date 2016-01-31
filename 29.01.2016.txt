@@ -1,0 +1,9 @@
+Started to learn more about SVM classifier. from the video on https://vimeo.com/104279620
+
+the good point of SVM is that, because it tries to classify with the condition to Maximize the Margin from seperation line and ne nearest sample data, decreases the degree of risk for risky data to classify. means that it supports the classifier with this logic. and it increases the accuracy.
+
+from minute 15:00 of video 
+
+
+Started to classify the Maxent based on file that has the cross validation. to see the acuuracy.
+

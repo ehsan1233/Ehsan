@@ -1,0 +1,21 @@
+started to create feature vector
+
+Feature vector is the most important concept in implementing a classifier. 
+A good feature vector directly determines how successful your classifier will be. The feature vector is used to build a model which the classifier 
+learns from the training data and further can be used to classify previously unseen data.
+
+Filtering tweet words (for feature vector)
+Stop words - a, is, the, with etc. The full list of stop words can be found at Stop Word List. These words don't indicate any sentiment and can be removed.
+Repeating letters - if you look at the tweets, sometimes people repeat letters to stress the emotion. E.g. hunggrryyy, huuuuuuungry for 'hungry'. We can look for 2 or more repetitive letters in words and replace them by 2 of the same.
+Punctuation - we can remove punctuation such as comma, single/double quote, question marks at the start and end of each word. E.g. beautiful!!!!!! replaced with beautiful
+Words must start with an alphabet - For simplicity sake, we can remove all those words which don't start with an alphabet. E.g. 15th, 5.34am
+
+the file is twitter-stopWord.py and the results are in feature-Vector 
+
+the problem is that, it removes Smilies too 
+
+
+
+
+
+

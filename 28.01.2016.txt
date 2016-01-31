@@ -1,0 +1,20 @@
+Finished the classifier with implimentation of Cross validation + Bigram + Trigram. 
+the file is located in Thesis/Twitter API/ServerBackup/analysis/NBclassifier_withTest.py 
+
+Naive based classifier with has been trained with automatically labeled tweets based on Emoticons. 
+
+Reached the accuracy of:
+
+80% with Normal
+81% with Bigram
+81% with Trigram 
+
+
+started to classify classier based on Sentiment140 labeled database with consists of more than 1 million labeled data. around 700 thausand positive and 700 thousand negative.  
+
+Thesis/Twitter API/Sentiment140/analysis/NBclassifier_withTest.py
+
+
+Started the classifier from 21:00 pm on 28.01 
+
+

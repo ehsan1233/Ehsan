@@ -1,0 +1,5 @@
+started to again preprocess. 
+
+file is on university/analysing/filtering
+							
+1. to go to the root of each word. used lemmatizing instead of stemming because for example university in lemmatizing is university but in stemming is univers

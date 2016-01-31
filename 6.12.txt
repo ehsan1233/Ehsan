@@ -1,0 +1,27 @@
+started from 27.11.2015 at 4:00 am to 6.12.2015 at 1:45 am
+
+number of tweets : 228604
+
+number of tweets without RT: 120599
+
+all data saved in topUniversity/data
+
+number of Positive tweets: 715
+
+number of Negative tweets: 187
+
+desided to increase number of universities to 400 universities 
+
+
+
+Started from 6.12.2015 2:08 am to 
+
+data saved in top400University 
+
+Because A phrase may be one or more terms separated by spaces, and a phrase will match if all of the terms in 
+the phrase are present in the Tweet, regardless of order and ignoring case. By this model, you can think of 
+commas as logical ORs, while spaces are equivalent to logical ANDs (e.g. ‘the twitter’ is the AND twitter, 
+and ‘the,twitter’ is the OR twitter).
+
+then started to remove " of " and "the " from the name of univesities.
+

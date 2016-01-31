@@ -1,0 +1,9 @@
+after collecting more than 700000 tweets from 12.12.2015 to 17.01.2016,
+which are located on server, collection name = top400university 
+here are the result: 
+number of uniqure tweets: 197322
+number of positive tweets: 3900
+number of negative tweets: 900
+
+means that only 2.432% of tweets containing positive/negative emojies
+

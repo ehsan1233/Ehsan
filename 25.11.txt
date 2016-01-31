@@ -1,0 +1,14 @@
+started to seperate positive and negative tweets before tokenizing them to words
+now on file positive_smily_detector.py, it saves positive tweets on data/feature_list/positive_list/positive_tweets.txt
+it applied to original tweets which are in data/feature-Output.txt
+list of positive smilys are in data/feature_list/positive_Smilies.txt
+
+we have 132 positive tweets
+
+the same for negative tweets
+
+we have 32 negative tweets
+
+so 
+
+started again to first filter text then remove stop words and so
